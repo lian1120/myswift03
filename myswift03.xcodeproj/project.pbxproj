@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		F78FCBFB1F68BD8A003EBF50 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = F78FCBFA1F68BD8A003EBF50 /* main.swift */; };
+		F78FCC021F68BE05003EBF50 /* enumtest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F78FCC011F68BE05003EBF50 /* enumtest.swift */; };
+		F78FCC041F68C6A2003EBF50 /* api.swift in Sources */ = {isa = PBXBuildFile; fileRef = F78FCC031F68C6A2003EBF50 /* api.swift */; };
+		F78FCC061F68D6F4003EBF50 /* myclass.swift in Sources */ = {isa = PBXBuildFile; fileRef = F78FCC051F68D6F4003EBF50 /* myclass.swift */; };
+		F78FCC0A1F691B69003EBF50 /* TWId.swift in Sources */ = {isa = PBXBuildFile; fileRef = F78FCC091F691B69003EBF50 /* TWId.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +29,10 @@
 /* Begin PBXFileReference section */
 		F78FCBF71F68BD8A003EBF50 /* myswift03 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = myswift03; sourceTree = BUILT_PRODUCTS_DIR; };
 		F78FCBFA1F68BD8A003EBF50 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		F78FCC011F68BE05003EBF50 /* enumtest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = enumtest.swift; sourceTree = "<group>"; };
+		F78FCC031F68C6A2003EBF50 /* api.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = api.swift; sourceTree = "<group>"; };
+		F78FCC051F68D6F4003EBF50 /* myclass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = myclass.swift; sourceTree = "<group>"; };
+		F78FCC091F691B69003EBF50 /* TWId.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TWId.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +66,10 @@
 			isa = PBXGroup;
 			children = (
 				F78FCBFA1F68BD8A003EBF50 /* main.swift */,
+				F78FCC011F68BE05003EBF50 /* enumtest.swift */,
+				F78FCC031F68C6A2003EBF50 /* api.swift */,
+				F78FCC051F68D6F4003EBF50 /* myclass.swift */,
+				F78FCC091F691B69003EBF50 /* TWId.swift */,
 			);
 			path = myswift03;
 			sourceTree = "<group>";
@@ -120,7 +132,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F78FCC061F68D6F4003EBF50 /* myclass.swift in Sources */,
+				F78FCC021F68BE05003EBF50 /* enumtest.swift in Sources */,
+				F78FCC041F68C6A2003EBF50 /* api.swift in Sources */,
 				F78FCBFB1F68BD8A003EBF50 /* main.swift in Sources */,
+				F78FCC0A1F691B69003EBF50 /* TWId.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
